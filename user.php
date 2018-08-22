@@ -7,8 +7,8 @@
   <body>
     <p><!--Vérification de l'existence des données remplies dans les champs puis affichage concaténée dans une phrase-->
     <?php
-      if(!empty($_POST['lastName']) && !empty($_POST['firstName']) && !empty($_POST['choice'])){
-        echo 'Je m\'appelle ' . $_POST['firstName'] . ' ' . $_POST['lastName'] . ' et je suis ' . $_POST['choice'];
+      if(!empty($_POST['lastName']) && !empty($_POST['firstName']) && !empty($_POST['civility'])){
+        echo 'Je m\'appelle ' . $_POST['firstName'] . ' ' . $_POST['lastName'] . ' et je suis ' . $_POST['civility'];
       } else {
         echo 'Certains champs ne sont pas remplis ! Réessayez !';
       }
