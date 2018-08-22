@@ -14,7 +14,7 @@
         <option value="une femme">Féminin</option><!--Selection féminin-->
         <option value="non_binaire">Non Binaire</option><!--Selection non-binaire-->
       </select>
-      <input type="submit" name="submit" />
+      <input type="submit" name="submit" value="Soumettre" />
     </form>
   </body>
 </html>
